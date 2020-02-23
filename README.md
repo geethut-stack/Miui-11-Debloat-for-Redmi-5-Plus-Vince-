@@ -1,7 +1,5 @@
 # miui 11 debloat for Redmi 5 Plus (vince)
 
-USAGE: Connect device via ADB, put miui_11_debloat_vince.bat in your adb folder and open
-
 DISCLAIMER: USE THIS AT YOUR OWN RISK, I customized this list to my own needs
 
 *If anything problems and necessities occur, you can always re-enable APPS in settings or ADB*
