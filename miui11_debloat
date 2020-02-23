@@ -139,13 +139,17 @@ adb shell pm disable-user --user 0 com.android.cts.ctsshim
 adb shell pm disable-user --user 0 com.android.companiondevicemanager
 adb shell pm disable-user --user 0 com.android.chrome
 adb shell pm disable-user --user 0 com.android.camera
-adb shell pm disable-user --user 0 com.android.calllogbackup
 adb shell pm disable-user --user 0 com.android.calendar
 adb shell pm disable-user --user 0 com.android.browser
 adb shell pm disable-user --user 0 com.android.bookmarkprovider
 adb shell pm disable-user --user 0 com.android.bips
 adb shell pm disable-user --user 0 com.android.backupconfirm
 adb shell pm disable-user --user 0 cn.wps.xiaomi.abroad.lite
+adb shell pm disable-user --user 0 com.qualcomm.qti.auth.sampleextauthservice
+adb shell pm disable-user --user 0 com.qualcomm.qti.auth.sampleauthenticatorservice
+adb shell pm disable-user --user 0 com.android.calllogbackup
+adb shell pm disable-user --user 0 com.miui.securitycore
+adb shell pm disable-user --user 0 com.lbe.security.miui
 #adb shell pm disable-user --user 0 org.codeaurora.ims
 #adb shell pm disable-user --user 0 org.codeaurora.btmultisim
 #adb shell pm disable-user --user 0 org.codeaurora.bluetooth
@@ -166,8 +170,6 @@ adb shell pm disable-user --user 0 cn.wps.xiaomi.abroad.lite
 #adb shell pm disable-user --user 0 com.qualcomm.qti.ims
 #adb shell pm disable-user --user 0 com.qualcomm.qti.callfeaturessetting
 #adb shell pm disable-user --user 0 com.qualcomm.qti.auth.secureextauthservice
-#adb shell pm disable-user --user 0 com.qualcomm.qti.auth.sampleextauthservice
-#adb shell pm disable-user --user 0 com.qualcomm.qti.auth.sampleauthenticatorservice
 #adb shell pm disable-user --user 0 com.qualcomm.qcrilmsgtunnel
 #adb shell pm disable-user --user 0 com.qualcomm.qcrilmsgtunnel
 #adb shell pm disable-user --user 0 com.qualcomm.location
@@ -186,7 +188,6 @@ adb shell pm disable-user --user 0 cn.wps.xiaomi.abroad.lite
 #adb shell pm disable-user --user 0 com.miui.systemui.carriers.overlay
 #adb shell pm disable-user --user 0 com.miui.system
 #adb shell pm disable-user --user 0 com.miui.sysopt
-#adb shell pm disable-user --user 0 com.miui.securitycore
 #adb shell pm disable-user --user 0 com.miui.securitycenter
 #adb shell pm disable-user --user 0 com.miui.securityadd
 #adb shell pm disable-user --user 0 com.miui.rom
@@ -201,7 +202,6 @@ adb shell pm disable-user --user 0 cn.wps.xiaomi.abroad.lite
 #adb shell pm disable-user --user 0 com.miui.gallery
 #adb shell pm disable-user --user 0 com.mi.globallayout
 #adb shell pm disable-user --user 0 com.mi.globallayout
-#adb shell pm disable-user --user 0 com.lbe.security.miui
 #adb shell pm disable-user --user 0 com.google.android.webview
 #adb shell pm disable-user --user 0 com.google.android.packageinstaller
 #adb shell pm disable-user --user 0 com.google.android.ext.shared
